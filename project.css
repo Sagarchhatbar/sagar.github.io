@@ -1,0 +1,171 @@
+
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #17a2b7;
+    height:70px;
+    text-align: center;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #17a2b7;
+    color: white;
+    height:70px;
+    text-align: center;
+  }
+  .logo{
+    width:130px;
+    height:130px;
+  }
+  .heading{
+    text-decoration: none;
+color: aliceblue;
+padding-right: 73%;
+ }
+.decoration{
+    text-decoration: none;
+    color: aliceblue ;
+    padding-right: 25px;
+}
+.decoration:hover{
+    color:  #000a1a;
+    transition: 0.7s;
+}
+
+ .nav_content{
+     display: flex;
+     padding-left: 62%;
+     margin-top: -4%;
+ }
+
+
+ .nav_btn{
+     padding:10px;
+     border-radius: 15px;
+     
+ }
+
+ .nav_btn:hover{
+     
+     border-radius: 0px;
+     transition: 0.7s;
+     
+ }
+
+
+ .cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.in_card{
+  padding: 35px;
+  background-color:#006699;
+  border-radius: 25px;
+}
+.in_card:hover{
+  background-color:  darkgrey;
+  transition: 0.7s;
+  border-radius: 0px;
+}
+
+
+.user{
+  text-decoration: none;
+  color:aliceblue ;
+  
+}
+.user:hover{
+  color:  aliceblue;
+}
+.click{
+  padding: 10px;
+  
+}
+
+
+
+
+.in_form{
+  padding-top: 50px;
+}
+
+ .div_form{
+   padding: 10px;
+   margin-bottom: -15px;
+ }
+
+ .inputtype{
+  padding:10px;
+  border: 3px solid #ccc;
+  width: 15%;
+  text-decoration: none;
+ }
+ .inputtype:focus{
+  border: 3px solid #555;
+  transition: 0.7s;
+ }
+
+ .btn{
+  padding: 16px 32px;
+   background-color: #006699;
+   width: 150px;
+   color:aliceblue;
+   border:none;
+ }
+ .btn:hover{
+  background-color: #99ccff;
+
+  transition: 0.7s;
+  color:black;
+  border :none;
+ }
+
+ .table{
+  padding-left: 31%;
+  display: inline-table;
+  border-collapse: collapse;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #99ccff;
+  color: black;
+}
+
+.selecte{
+  padding: 16px 32px;
+  position: relative;
+  font-family: Arial;
+  background-color: DodgerBlue;
+  color: white;
+}
+.selecte:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
